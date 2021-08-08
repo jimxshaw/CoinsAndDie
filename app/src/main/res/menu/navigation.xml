@@ -2,9 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/choosePlayersFragment"
+        android:icon="@drawable/ic_baseline_person_24"
         android:title="@string/players" />
 
     <item
         android:id="@+id/gameFragment"
+        android:icon="@drawable/mdi_dice_4_black_24"
         android:title="@string/game" />
 </menu>
