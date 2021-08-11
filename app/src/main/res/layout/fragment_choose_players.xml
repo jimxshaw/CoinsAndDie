@@ -16,7 +16,7 @@
             android:src="@drawable/ic_baseline_play_arrow_24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:tint="@android:color/white" />
+            android:tint="@color/dal_silver" />
 
 
 
