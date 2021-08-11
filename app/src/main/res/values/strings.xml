@@ -2,6 +2,7 @@
     <string name="app_name">Coins and Die</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="players">Players</string>
+    <string name="player_name">Player Name</string>
     <string name="game">Game</string>
     <string name="play_button">Play Button</string>
 </resources>
