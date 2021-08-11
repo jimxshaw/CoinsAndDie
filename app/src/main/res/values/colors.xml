@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dal_royal_blue">#003594</color>
+    <color name="dal_blue">#041E42</color>
+    <color name="dal_silver">#869397</color>
+    <color name="dal_silver_green">#7F9695</color>
 </resources>

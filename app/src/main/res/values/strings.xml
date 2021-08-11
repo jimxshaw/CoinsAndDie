@@ -3,4 +3,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="players">Players</string>
     <string name="game">Game</string>
+    <string name="play_button">Play Button</string>
 </resources>
