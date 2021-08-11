@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/choosePlayersFragment"
-        android:name="com.example.coinsanddie.fragments.GameFragment"
+        android:name="com.example.coinsanddie.fragments.ChoosePlayersFragment"
         android:label="fragment_choose_players" />
 
     <fragment
