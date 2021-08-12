@@ -12,6 +12,41 @@
             android:animateLayoutChanges="true"
             tools:context="com.example.coinsanddie.fragments.GameFragment">
 
+        <TextView
+                android:id="@+id/textCurrentPlayerName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="Hazel"
+                android:textSize="32sp"
+                app:layout_constraintBottom_toBottomOf="@id/textCoinsLeft"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textCurrentPlayerCoinsLeft"
+                tools:text="James" />
+
+        <TextView
+                android:id="@+id/textCurrentPlayerCoinsLeft"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@id/textCoinsLeft"
+                app:layout_constraintStart_toStartOf="@id/textCoinsLeft"
+                app:layout_constraintTop_toBottomOf="@id/coinSlot6"
+                tools:text="5" />
+
+        <TextView
+                android:id="@+id/textCoinsLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:text="coin(s) left"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textCurrentPlayerCoinsLeft" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>
