@@ -1,6 +1,7 @@
 package com.example.coinsanddie.fragments
 
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -35,7 +36,10 @@ class GameFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val binding = FragmentGameBinding.inflate(inflater, container, false)
+        val binding = FragmentGameBinding.inflate(inflater, container, false).apply {
+            // Enables the text box to have vertical scroll bars.
+            textCurrentTurnInfo.movementMethod = ScrollingMovementMethod()
+        }
 
         return binding.root
     }
