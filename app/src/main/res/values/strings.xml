@@ -5,4 +5,5 @@
     <string name="player_name">Player Name</string>
     <string name="game">Game</string>
     <string name="play_button">Play Button</string>
+    <string name="coins_left">coin(s) left</string>
 </resources>
