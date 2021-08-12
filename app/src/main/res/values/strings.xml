@@ -6,7 +6,7 @@
     <string name="game">Game</string>
     <string name="play_button">Play Button</string>
     <string name="coins_left">coin(s) left</string>
-    <string name="roll_die">Roll Die</string>
+    <string name="roll">Roll</string>
     <string name="or">OR</string>
-    <string name="pass_turn">Pass Turn</string>
+    <string name="pass">Pass</string>
 </resources>
