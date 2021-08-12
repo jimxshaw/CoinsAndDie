@@ -9,4 +9,6 @@
     <string name="roll">Roll</string>
     <string name="or">OR</string>
     <string name="pass">Pass</string>
+    <string name="text_game_info">This will contain game information</string>
+    <string name="text_game_standings">This will contain current game standings</string>
 </resources>

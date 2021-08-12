@@ -87,6 +87,33 @@
 
         </LinearLayout>
 
+        <TextView
+                android:id="@+id/textCurrentTurnInfo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="16dp"
+                android:scrollbars="vertical"
+                android:text="@string/text_game_info"
+                app:layout_constraintBottom_toTopOf="@id/textCurrentStandingsInfo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutButtons"
+                tools:text="James rolled a 4!\nJames rolled a 5" />
+
+        <TextView
+                android:id="@+id/textCurrentStandingsInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/text_game_standings"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textCurrentTurnInfo"
+                tools:text="Current Scores:\t\nFrodo: 7 coins\n\tJames: 4 coins" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>
