@@ -12,6 +12,81 @@
             android:animateLayoutChanges="true"
             tools:context="com.example.coinsanddie.fragments.GameFragment">
 
+        <TextView
+                android:id="@+id/textCurrentPlayerName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="Hazel"
+                android:textSize="32sp"
+                app:layout_constraintBottom_toBottomOf="@id/textCoinsLeft"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textCurrentPlayerCoinsLeft"
+                tools:text="James" />
+
+        <TextView
+                android:id="@+id/textCurrentPlayerCoinsLeft"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@id/textCoinsLeft"
+                app:layout_constraintStart_toStartOf="@id/textCoinsLeft"
+                app:layout_constraintTop_toBottomOf="@id/coinSlot6"
+                tools:text="5" />
+
+        <TextView
+                android:id="@+id/textCoinsLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:text="@string/coins_left"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textCurrentPlayerCoinsLeft" />
+
+
+        <LinearLayout
+                android:id="@+id/layoutButtons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textCoinsLeft">
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:drawableEnd="@drawable/mdi_dice_4_black_24"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/dal_silver"
+                    android:textColor="@color/black"
+                    android:text="@string/roll" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/or"
+                    android:textSize="24sp" />
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:backgroundTint="@color/dal_silver"
+                    android:textColor="@color/black"
+                    android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+                    android:padding="10dp"
+                    android:text="@string/pass" />
+
+        </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>
