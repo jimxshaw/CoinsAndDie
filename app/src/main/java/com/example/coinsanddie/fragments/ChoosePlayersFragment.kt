@@ -1,11 +1,10 @@
 package com.example.coinsanddie.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.coinsanddie.R
+import androidx.fragment.app.Fragment
 import com.example.coinsanddie.databinding.FragmentChoosePlayersBinding
 
 // TODO: Rename parameter arguments, choose names that match
