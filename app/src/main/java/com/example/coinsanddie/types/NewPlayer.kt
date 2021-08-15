@@ -7,7 +7,8 @@ data class NewPlayer(
     val isHuman: ObservableBoolean = ObservableBoolean(true),
     val canBeRemoved: Boolean = true,
     val canBeToggled: Boolean = true,
-    // This is only true if a user can't be removed from the game.
+    // This field only true if a user can't be removed from the game.
+    // Controls whether or not a player is the game or not.
     var isIncluded: ObservableBoolean = ObservableBoolean(!canBeRemoved)
 )
 
