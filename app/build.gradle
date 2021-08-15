@@ -52,6 +52,7 @@ dependencies {
 
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lc_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lc_version"
+    implementation 'androidx.databinding:library:3.2.0-alpha11'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
